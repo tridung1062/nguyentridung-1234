@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="vn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" >
+    <title>Bài kiểm tra số 2 - CSS Display và flexbox</title>
+  </head>
+  <!-- TODO
+  1) Thêm hình ảnh vào webpage
+  2) Viết css cho wbpage vào file style.css và nhúng vào webpage:
+    + Chiều rộng phần nội dung tối đa là 960px
+    + tiêu đề h1 của trang có kích thước x2 root và viết hoa
+    + Sử dụng font Pacifico cho các tiêu đề h1,h2,h3 
+    https://fonts.google.com/specimen/Pacifico 
+    + phần header có tổng chiều cao (kể cả menu navbar) là 300px
+    + Phần sidebar chiếm 30% phần nội dung chính
+    + Ảnh trong phần nội dung chính (main-content) có kích thước tối đa 200px
+  3) Màu của webpage: Sử dụng công cụ lấy màu hoặc lấy mã màu trong link sau:
+  https://colorhunt.co/palette/8cb9bdfefbf6ecb159b67352
+  -->
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="site-info">
+          <h1>Website môn Thiết kế web</h1>
+          <p>Kiến thức - Kinh nghiệm - Hỏi đáp</p>
+          <p>Sử dụng <b>flexible</b> layout.</p>
+        </div>
+        <nav class="navbar">
+       <a href="#">Trang chủ</a>
+            <a href="#">Khoa học</a>
+            <a href="#">Công nghệ</a>
+            <a href="#">Cuộc sống</a>
+          </ul>
+        </nav>
+      </header>
+      <div class="main">
+        <aside class="sidebar">
+          <section>
+            <h2>Giới thiệu</h2>
+            <img src="./images/gioithieu.png" >
+            <p>
+              Sidebar là gì? Bạn thường nghe về sidebar nhưng có thực sự biết,
+              hiểu và dùng nó hiệu quả.
+            </p>
+          </section>
+          <section>
+            <h3>Nổi bật</h3>
+            <img src="./images/noi-bat.png" >
+            <img src="./images/noi-bat.png" >
+            <img src="./images/noi-bat.png" >
+
+          </section>
+          <section>
+            <h3>Follow Me</h3>
+            <img src="./facebook.svg" >
+            <img src="./youtube.svg"  >
+
+          </section>
+        </aside>
+        
+         
+        <div class="main-content">
+          <article>
+            <h2>Attribute Selector trong CSS</h2>
+            <img src="./images/article.png">
+            <h5>Đăng bởi admin, 15/04/2019</h5>
+            <img src="" alt="" />
+            <p>
+              Attribute selector là cách chọn các phần tử bạn muốn định kiểu
+              trong tài liệu HTML dựa vào thuộc tính của một hay nhiều thẻ HTML
+              nào đó.
+            </p>
+            <p>
+              Attribute selector có thể chọn được các đối tượng mà không cần
+              phải khai báo thêm các Class hoặc ID vào trong thẻ HTML và vẫn có
+              thể hướng được đến các thành phần đó, giúp code gọn gàng hơn và
+              mạch lạc hơn.
+            </p>
+            <p>
+              Attribute selector có thể chọn được các đối tượng mà không cần
+              phải khai báo thêm các Class hoặc ID vào trong thẻ HTML và vẫn có
+              thể hướng được đến các thành phần đó, giúp code gọn gàng hơn và
+              mạch lạc hơn.
+            </p>
+          </article>
+          <article>
+            <h2>Form - Biểu mẫu trong CSS</h2>
+            <img src="./images/article.png" >
+            <h5>Đăng bởi admin, 14/02/2019</h5>
+            
+            <p>
+              Form CSS là gì? Nếu đã dùng CSS thẻ input thành thạo, giờ là lúc
+              bạn nên học cách tạo biểu mẫu.
+            </p>
+            <p>
+              Biểu mẫu web là thành phần phổ biến trong mọi thiết kế trang web.
+              Nó xuất hiện dưới mọi hình thức, từ một trường biểu mẫu tìm kiếm
+              tới biểu mẫu liên hệ và bộ lọc dữ liệu phức tạp. Biết cách dùng
+              CSS để tạo kiểu và làm việc với những nhân tố này, bạn sẽ có các
+              giải pháp tốt hơn cho những vấn đề thường gặp trong khi lập trình
+              hàng ngày, và có thể cải thiện trải nghiệm người dùng cho web của
+              bạn.
+            </p>
+            <p>
+              Biểu mẫu web là thành phần phổ biến trong mọi thiết kế trang web.
+              Nó xuất hiện dưới mọi hình thức, từ một trường biểu mẫu tìm kiếm
+              tới biểu mẫu liên hệ và bộ lọc dữ liệu phức tạp. Biết cách dùng
+              CSS để tạo kiểu và làm việc với những nhân tố này, bạn sẽ có các
+              giải pháp tốt hơn cho những vấn đề thường gặp trong khi lập trình
+              hàng ngày, và có thể cải thiện trải nghiệm người dùng cho web của
+              bạn.
+            </p>
+          </article>
+        </div>
+      </div>
+      <footer>
+        <p>© 2024 Trường Cao đẳng Công nghiệp Huế. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
